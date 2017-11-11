@@ -19,6 +19,7 @@ int main() {
     for(int i=0;i<n;i++){
         if(!(arrstream>>arr[i])){
             cout<<"An error has occuried while reading input data.";
+            delete[] arr;
             exit(0);
         }
 
